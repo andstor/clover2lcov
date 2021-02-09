@@ -1,0 +1,34 @@
+{
+  "name": "clover2lcov",
+  "version": "1.0.0",
+  "description": "Convert Clover reports to LCOV reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andstor/clover2lcov.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "clover",
+    "lcov",
+    "conversion"
+  ],
+  "author": {
+    "name": "André Storhaug",
+    "email": "andr3.storhaug@gmail.com",
+    "url": "https://github.com/andstor"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andstor/clover2lcov/issues"
+  },
+  "homepage": "https://github.com/andstor/clover2lcov#readme",
+  "dependencies": {
+    "@cvrg-report/clover-json": "^0.3.2"
+  }
+}
